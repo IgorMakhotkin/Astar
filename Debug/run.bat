@@ -1,3 +1,3 @@
-Astar.exe < map.txt  data.txt  >> result.txt
+Astar.exe < m.txt  d.txt  >> result.txt
 
 	
