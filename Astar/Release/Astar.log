@@ -1,0 +1,60 @@
+﻿Построение начато 17.11.2017 13:12:21.
+     1>Проект "C:\Users\Igor\Desktop\Astar\Astar\Astar.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Release\Astar.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Release\Astar.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Astar.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Astar.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Astar.cpp TestingMapSearch.cpp
+         Astar.cpp
+     1>Astar.cpp(1): warning C4627: #include "AStarFindPath.h": пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "StdAfx.h" или перестройка предкомпилированного заголовка
+     1>c:\users\igor\desktop\astar\astar\MapSearch.h(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): см. объявление "sprintf"
+     1>c:\users\igor\desktop\astar\astar\MapSearch.h(78): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\igor\desktop\astar\astar\MapSearch.h(78): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>Astar.cpp(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+     1>Astar.cpp(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+     1>Astar.cpp(25): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+     1>Astar.cpp(41): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+     1>Astar.cpp(42): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+     1>Astar.cpp(46): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+     1>Astar.cpp(47): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+         TestingMapSearch.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\intrin.h(1087): warning C4995: wcscat: имя помечено как #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\intrin.h(1089): warning C4995: wcscpy: имя помечено как #pragma deprecated
+     1>c:\users\igor\desktop\astar\astar\MapSearch.h(69): warning C4995: sprintf: имя помечено как #pragma deprecated
+     1>c:\users\igor\desktop\astar\astar\MapSearch.h(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): см. объявление "sprintf"
+     1>c:\users\igor\desktop\astar\astar\MapSearch.h(78): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\igor\desktop\astar\astar\MapSearch.h(78): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Igor\Desktop\Astar\Release\Astar.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Astar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Igor\Desktop\Astar\Release\Astar.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Igor\Desktop\Astar\Release\Astar.lib" /MACHINE:X86 Release\Astar.obj
+         Release\stdafx.obj
+         Release\TestingMapSearch.obj
+     1>TestingMapSearch.obj : error LNK2005: "int MAP_WIDTH" (?MAP_WIDTH@@3HA) уже определен в Astar.obj
+     1>TestingMapSearch.obj : error LNK2005: "int MAP_HEIGHT" (?MAP_HEIGHT@@3HA) уже определен в Astar.obj
+     1>TestingMapSearch.obj : error LNK2005: "int * world_map" (?world_map@@3PAHA) уже определен в Astar.obj
+     1>TestingMapSearch.obj : error LNK2005: "public: float __thiscall MapSearchNode::GetCost(class MapSearchNode &)" (?GetCost@MapSearchNode@@QAEMAAV1@@Z) уже определен в Astar.obj
+     1>TestingMapSearch.obj : error LNK2005: "public: bool __thiscall MapSearchNode::GetSuccessors(class AStarFindPath<class MapSearchNode> *,class MapSearchNode *)" (?GetSuccessors@MapSearchNode@@QAE_NPAV?$AStarFindPath@VMapSearchNode@@@@PAV1@@Z) уже определен в Astar.obj
+     1>TestingMapSearch.obj : error LNK2005: "public: bool __thiscall MapSearchNode::IsGoal(class MapSearchNode &)" (?IsGoal@MapSearchNode@@QAE_NAAV1@@Z) уже определен в Astar.obj
+     1>TestingMapSearch.obj : error LNK2005: "public: float __thiscall MapSearchNode::GoalDistanceEstimate(class MapSearchNode &)" (?GoalDistanceEstimate@MapSearchNode@@QAEMAAV1@@Z) уже определен в Astar.obj
+     1>TestingMapSearch.obj : error LNK2005: "public: void __thiscall MapSearchNode::PrintNodeInfo(void)" (?PrintNodeInfo@MapSearchNode@@QAEXXZ) уже определен в Astar.obj
+     1>TestingMapSearch.obj : error LNK2005: "public: bool __thiscall MapSearchNode::IsSameState(class MapSearchNode &)" (?IsSameState@MapSearchNode@@QAE_NAAV1@@Z) уже определен в Astar.obj
+     1>TestingMapSearch.obj : error LNK2005: "int __cdecl GetMap(int,int)" (?GetMap@@YAHHH@Z) уже определен в Astar.obj
+            Создается библиотека C:\Users\Igor\Desktop\Astar\Release\Astar.lib и объект C:\Users\Igor\Desktop\Astar\Release\Astar.exp
+     1>C:\Users\Igor\Desktop\Astar\Release\Astar.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+     1>Построение проекта "C:\Users\Igor\Desktop\Astar\Astar\Astar.vcxproj" завершено (целевые объекты rebuild) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:01.69
